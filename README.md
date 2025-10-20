@@ -1,6 +1,7 @@
 # Concurrency Traffic Simulation
 
-![Traffic Simulation](C:\Users\suhan\projects\traffic-simulation\data\traffic_simulation.gif)
+![Traffic Simulation](./traffic_simulation.gif)
+
 
 ## Overview
 The **Concurrency Traffic Simulation** project models a busy city intersection with realistic traffic behavior using **C++** and **multithreading**.  

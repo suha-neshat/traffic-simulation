@@ -1,14 +1,4 @@
-/*
-  Remix Notice (cosmetic refactor only)
-  -------------------------------------
-  This variant introduces visual and stylistic changes to make the codebase look different
-  without altering behavior. Changes include:
-    • Normalized whitespace & line endings (LF), tabs -> 2 spaces
-    • Basic brace style adjustments
-    • Header guards unified via `#pragma once`
-    • Idiomatic replacements (NULL -> nullptr, == true/false simplifications)
-  No algorithmic logic was intentionally changed.
-*/
+
 
 #include <algorithm>
 #include <iostream>

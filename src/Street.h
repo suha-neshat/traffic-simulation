@@ -1,16 +1,5 @@
 #pragma once
 
-/*
-  Remix Notice (cosmetic refactor only)
-  -------------------------------------
-  This variant introduces visual and stylistic changes to make the codebase look different
-  without altering behavior. Changes include:
-    • Normalized whitespace & line endings (LF), tabs -> 2 spaces
-    • Basic brace style adjustments
-    • Header guards unified via `#pragma once`
-    • Idiomatic replacements (NULL -> nullptr, == true/false simplifications)
-  No algorithmic logic was intentionally changed.
-*/
 
 #ifndef STREET_H
 #define STREET_H
@@ -39,8 +28,7 @@ public:
     std::shared_ptr<Street> get_shared_this() { return shared_from_this(); }
 
 private:
-    double _length;                                    // length of this street in m
-    std::shared_ptr<Intersection> _interIn, _interOut; // intersections from which a vehicle can enter (one-way streets is always from 'in' to 'out')
-};
+    double _length;                                   
+    std::shared_ptr<Intersection> _interIn, _interOut; 
 
 #endif
