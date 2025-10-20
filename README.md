@@ -1,6 +1,6 @@
 # Concurrency Traffic Simulation
 
-![Traffic Simulation](./traffic_simulation.gif)
+![Traffic Simulation](/traffic_simulation.gif)
 
 
 ## Overview
