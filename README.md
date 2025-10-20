@@ -1,9 +1,10 @@
 # Concurrency Traffic Simulation
 
-![Traffic Simulation](/traffic_simulation.gif)
 
 
-## Overview
+
+## Overview![traffic_simulation](https://github.com/user-attachments/assets/181f7fd6-c406-4780-8b8b-7e55105f8e9f)
+
 The **Concurrency Traffic Simulation** project models a busy city intersection with realistic traffic behavior using **C++** and **multithreading**.  
 Vehicles and traffic lights are represented as concurrent objects that communicate via **message queues**, allowing for parallel updates without blocking the main thread.
 
